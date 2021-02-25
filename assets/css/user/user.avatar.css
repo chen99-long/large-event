@@ -1,0 +1,55 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+
+.box-left {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    background-color: cyan;
+}
+
+.box-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w100 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.w50 {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.row1 {
+    width: 600px;
+    display: flex;
+}
+
+.row2 form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#file {
+    display: none;
+}
