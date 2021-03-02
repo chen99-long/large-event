@@ -43,9 +43,11 @@
                     <li class="layui-nav-item ">
                         <a class="" href="javascript:;"><span class="iconfont icon-16"></span>文章管理</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-read"></i>文章类别</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-read"></i>文章列表</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-read"></i>发布文章</a></dd>
+                            <dd><a id="type" target="fm" href="article/article.type.html"><i class="layui-icon layui-icon-read"></i>文章类别</a></dd>
+                            <dd><a target="fm" href="article/article.list.html"><i class="layui-icon layui-icon-read"></i>文章列表</a></dd>
+                            <dd>
+                                <a target="fm" href="article/article.send.html"><i class="layui-icon layui-icon-read"></i>发布文章</a>
+                            </dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
@@ -64,6 +66,8 @@
             <!-- 内容主体区域 -->
 
             <iframe name="fm" src="/home/dashboard.html" frameborder="0"></iframe>
+            <!-- 开发article.type的时候改的 一会记得删掉 -->
+            <!-- <iframe name="fm" src="article/article.send.html" frameborder="0"></iframe> -->
 
         </div>
 
